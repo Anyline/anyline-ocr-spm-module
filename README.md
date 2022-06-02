@@ -1,3 +1,5 @@
+[![Swift Package Manager](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square)](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange)
+
 # Anyline (Swift Package)
 
 This is a repository for the [Anyline SDK for iOS](https://github.com/Anyline/anyline-ocr-examples-ios) Swift Package.
