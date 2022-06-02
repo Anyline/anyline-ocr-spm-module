@@ -10,7 +10,7 @@ If you are a framework author relying on Anyline SDK as a dependency, edit your 
 
 ```
 dependencies: [
-    .package(url: "https://github.com/Anyline/anyline-ocr-spm-module.git", .upToNextMajor(from: "40.0.0"))
+    .package(url: "https://github.com/Anyline/anyline-ocr-spm-module.git")
 ]
 ```
 
