@@ -8,6 +8,6 @@ let package = Package(
         .library(name: "AnylinePackage", targets: ["Anyline"]),
     ],
     targets: [
-        .binaryTarget(name: "Anyline", url: "https://anylinesdk.blob.core.windows.net/downloads/Anyline.xcframework-spm-43.0.0-preview.3.zip", checksum: "1f2b4e1f87571576f791e2638a2f0c8c2ef9172b30f5ae8b8a7273792397ec8f")
+        .binaryTarget(name: "Anyline", url: "https://anylinesdk.blob.core.windows.net/downloads/Anyline.xcframework-spm-43.0.0-rc.1.zip", checksum: "71c499dc4bee0a8becbdff588c40667f622362ec85f25fa6896084f4a92cf1d5")
     ]
 )
