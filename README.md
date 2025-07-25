@@ -17,3 +17,7 @@ dependencies: [
 ```
 
 More information can be found [here](https://developer.apple.com/documentation/swift_packages/adding_package_dependencies_to_your_app).
+
+## Get Help
+
+We don't actively monitor the Github Issues. If there is anything you are missing, you require support, or want to provide us with feedback, please reach out to us via https://support.anyline.com, where you either may find helpful information in our Knowledge Base or you can open a Support Ticket for more specific inquiries.
