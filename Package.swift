@@ -8,6 +8,6 @@ let package = Package(
         .library(name: "AnylinePackage", targets: ["Anyline"]),
     ],
     targets: [
-        .binaryTarget(name: "Anyline", url: "https://mobile-sdk-ios.anyline.io/spm/Anyline.xcframework-spm-55.7.0.zip", checksum: "eae3bf8bb0ffccf05a7ec1652d68f3933f67ada248badf386330d593f62f5c39")
+        .binaryTarget(name: "Anyline", url: "https://mobile-sdk-ios.anyline.io/spm/Anyline.xcframework-spm-55.7.0.zip", checksum: "f6e68c1fedca75134a1474d385e06eeeea06df48ca69d1bfd83dd940767e77cf")
     ]
 )
