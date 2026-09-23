@@ -3,11 +3,11 @@
 import PackageDescription
 let package = Package(
     name: "AnylinePackage",
-    platforms: [.iOS("11")],
+    platforms: [.iOS(.v12)],
     products: [
         .library(name: "AnylinePackage", targets: ["Anyline"]),
     ],
     targets: [
-        .binaryTarget(name: "Anyline", url: "https://mobile-sdk-ios.anyline.io/spm/Anyline.xcframework-spm-56.5.0.zip", checksum: "eb47507f4f3af71277214dd3a055f7bf5305d830b5b56fba526e83412b99366b")
+        .binaryTarget(name: "Anyline", url: "https://mobile-sdk-ios.anyline.io/spm/Anyline.xcframework-spm-56.5.1.zip", checksum: "4240919377aa7c432ae88648b506ca447e5aeb263a816b3c18e8c83c0e1e4acd")
     ]
 )
