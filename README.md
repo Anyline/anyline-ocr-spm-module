@@ -2,9 +2,9 @@
 
 # Anyline (Swift Package)
 
-Swift Package for the [Anyline SDK for iOS](https://documentation.anyline.com/ios-sdk-component/latest/) — scanning and OCR for iOS apps.
+Swift Package for the [Anyline SDK for iOS](https://documentation.anyline.com/ios-sdk-component/latest/): scanning and OCR for iOS apps.
 
-**Swift Package Manager is the recommended way to add the Anyline iOS SDK to your project.** CocoaPods remains available, but CocoaPods Trunk becomes read-only on 2026-12-02, and no new SDK version can be published there after that date. Already-published versions stay installable indefinitely, so existing CocoaPods projects keep building — migrate to Swift Package Manager to keep receiving SDK updates.
+You can add the Anyline iOS SDK to your project with Swift Package Manager or a [local copy](https://documentation.anyline.com/ios-sdk-component/latest/getting-started.html#local-copy). Swift Package Manager is the recommended method.
 
 ## Getting Started
 
@@ -18,7 +18,7 @@ If you are a framework author depending on the Anyline SDK, add it to your `Pack
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/Anyline/anyline-ocr-spm-module.git", from: "56.3.0")
+    .package(url: "https://github.com/Anyline/anyline-ocr-spm-module.git", from: "56.7.0")
 ]
 ```
 
@@ -40,4 +40,4 @@ EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
 
 ## Get Help
 
-We don't actively monitor GitHub Issues. If something is missing, you need support, or you'd like to give feedback, please reach out via [support.anyline.com](https://support.anyline.com) — you may find what you need in the Knowledge Base, or you can open a Support Ticket for more specific enquiries.
+We don't actively monitor GitHub Issues. If something is missing, you need support, or you'd like to give feedback, please reach out via [support.anyline.com](https://support.anyline.com). You may find what you need in the Knowledge Base, or you can open a Support Ticket for more specific enquiries.
